@@ -15,7 +15,8 @@ header nav {
   text-align: center;
 }
 
-header a {
+/** set display, margin, border-radius, text-decoration, padding for nav links **/
+nav a {
   display: inline-block;
   width: 15%;
   padding: 1rem;
@@ -29,7 +30,7 @@ header a {
   background-color: rgba(197, 197, 197, 0.4);
 }
 
-header a.active {
+nav a.active {
   background-color: rgb(255, 255, 255);
 }
 
@@ -72,6 +73,8 @@ h1, h2 {
   text-transform: uppercase;
 }
 
+/** it looks nice to have hover and focus state -
+ but this can apply to all links according to the homework description **/
 a:hover, a:focus {
   background-color: rgba(37, 138, 187, 0.2);
 }
