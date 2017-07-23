@@ -1,0 +1,80 @@
+body {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+header {
+  background-color: rgb(178, 178, 178);
+  background-image: url("../images/flywheel.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 1rem;
+}
+
+header nav {
+  text-align: center;
+}
+
+/** set display, margin, border-radius, text-decoration, padding for nav links **/
+nav a {
+  display: inline-block;
+  width: 15%;
+  padding: 1rem;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 1rem;
+  text-decoration: none;
+  font-family: Arial, Futura, Gotham, sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  background-color: rgba(197, 197, 197, 0.4);
+}
+
+nav a.active {
+  background-color: rgb(255, 255, 255);
+}
+
+.left {
+  float: left;;
+  width: 200px;
+  height: 100%;
+  background-color: rgb(37, 138, 187);
+}
+
+.left img {
+  display: block;
+  width: 150px;
+  margin: 24px auto;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+section {
+  margin-top: -400px;
+  margin-left: 200px;
+  float: left;
+  padding: 1rem;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Trebuchet MS", "Nirmala UI", "Franklin Gothic Medium", sans-serif;
+  letter-spacing: 2.5px;
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-family: "Trebuchet MS", "Nirmala UI", "Franklin Gothic Medium", sans-serif;
+  color: rgb(0, 0, 128);
+  font-size: 128%;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+/** it looks nice to have hover and focus state -
+ but this can apply to all links according to the homework description **/
+a:hover, a:focus {
+  background-color: rgba(37, 138, 187, 0.2);
+}
