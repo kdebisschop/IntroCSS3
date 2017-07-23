@@ -11,10 +11,6 @@ header {
 
 header nav {
   text-align: center;
-}
-
-/** set display, margin, border-radius, text-decoration, padding for nav links **/
-nav {
   height: 4em;
 }
 
@@ -69,10 +65,6 @@ section {
   position: absolute;
   top: 172px;
   left: 200px;
-  /*margin: 1rem;*/
-  /*margin-top: -400px;*/
-  /*margin-left: 200px;*/
-  /*float: left;*/
   padding:  1rem 1rem 0 1rem;;
   margin-left: 1rem;
 }
